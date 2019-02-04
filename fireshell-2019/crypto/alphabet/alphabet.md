@@ -24,6 +24,7 @@ f = open('ct.txt', 'r')
 
 md5s = {}
 sha256s = {}
+
 for i in range(256):
         md5s[hashlib.md5(chr(i)).hexdigest()] = chr(i)
         sha256s[hashlib.sha256(chr(i)).hexdigest()] = chr(i)
