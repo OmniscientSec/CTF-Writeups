@@ -12,7 +12,7 @@ Ciphertext contained hashes like:
 148de9c5a7a44d19e56cd9ae1a554bf67847afb0c58f6e12fa29ac7ddfca9940 e1671797c52e15f763380b45e841ec32
 ```
 
-Quick google search returned rainbow tables on SHA-256 and MD5
+Quick google search returned rainbow tables on SHA-256 and MD5.
 
 Quickly making a rainbow-table and feeding the file through it returns a long file, so we just grepped it and got the flag.
 
